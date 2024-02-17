@@ -1,0 +1,103 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Arial';
+}
+
+html,
+body {
+	height: 100%;
+}
+
+ul > li {
+	list-style: none;
+}
+
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	padding: 15px;
+	width: 600px;
+	height: 800px;
+	border-radius: 5px;
+	border: 1px solid rgb(112, 112, 112);
+	background: #aeaeae;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+h1 {
+	margin-bottom: 5px;
+}
+
+.buttons {
+	display: flex;
+	gap: 10px;
+	margin-bottom: 5px;
+}
+
+.buttons > button {
+	font-size: 25px;
+	padding: 5px;
+}
+
+ul {
+	overflow-y: auto;
+	background: burlywood;
+	border-radius: 5px;
+	border: 1px solid rgb(112, 112, 112);
+	height: 100%;
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+li {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 10px;
+	background: #2a2a2a2f;
+	padding: 10px;
+}
+
+.block-color {
+	width: 62px;
+	height: 62px;
+	background: #000;
+}
+
+.title {
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+.price {
+	font-size: 20px;
+}
+
+.likes {
+	background-color: green;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	font-weight: bolder;
+	text-align: center;
+}
+.dislikes {
+	background-color: red;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	font-weight: bolder;
+	text-align: center;
+	
+}
